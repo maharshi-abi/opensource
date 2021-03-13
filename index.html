@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>ABI - Achieve Beyond Imagination</title>
+	<link rel='stylesheet' href='css/all.min.css'>
+	<link rel='stylesheet' href='css/font.css'>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="app">
+		<div class="cardList">
+			<!-- slider arrow icons -->
+			<button class="cardList__btn btn btn--left">
+				<div class="icon">
+					<svg>
+						<use xlink:href="#arrow-left"></use>
+					</svg>
+				</div>
+			</button>
+			<!-- slider arrow icons -->
+
+			<!-- main image -->
+			<div class="cards__wrapper">
+				<div class="card current--card" onclick="location.href = './laravel';">
+					<div class="card__image">
+						<img src="img/laravel.png" alt="Laravel - Web Development" />
+					</div>
+				</div>
+				<div class="card next--card" onclick="location.href = 'comming_soon.html';">
+					<div class="card__image">
+						<img src="img/reactjs.png" alt="React Js - Frontend" />
+					</div>
+				</div>
+				<div class="card previous--card" onclick="location.href = 'comming_soon.html';">
+					<div class="card__image">
+						<img src="img/next.jpg" alt="Next Js - Frontend" />
+					</div>
+				</div>
+			</div>
+			<!-- main image -->
+
+			<button class="cardList__btn btn btn--right">
+				<div class="icon">
+					<svg>
+						<use xlink:href="#arrow-right"></use>
+					</svg>
+				</div>
+			</button>
+		</div>
+
+		<!-- imagedescription -->
+		<div class="infoList">
+			<div class="info__wrapper">
+				<div class="info current--info">
+					<h1 class="text name">Laravel</h1>
+					<p href="#" class="text">Admin Panel</p>
+					<p class="text description">Version: 8.*</p>
+				</div>
+				<div class="info next--info">
+					<h1 class="text name">React</h1>
+					<p href="#" class="text">Admin Panel</p>
+					<p class="text description">Version: 17.*</p>
+					<p class="text description">Comming Soon</p>
+				</div>
+				<div class="info previous--info">
+					<h1 class="text name">Next Js</h1>
+					<p href="#" class="text">Admin Panel</p>
+					<p class="text description">Version: -</p>
+					<p class="text description">Comming Soon</p>
+				</div>
+			</div>
+		</div>
+		<!-- imagedescription -->
+
+		<!-- background image -->
+		<div class="app__bg">
+			<div class="app__bg__image current--image">
+				<img src="img/laravel-bg.png" alt="Web Development" />
+			</div>
+			<div class="app__bg__image next--image">
+				<img src="img/react.png" alt="React Frontend" />
+			</div>
+			<div class="app__bg__image previous--image">
+				<img src="img/nextjs.jpg" alt="NextJs Frontend" />
+			</div>
+		</div>
+		<!-- background image -->
+	</div>
+
+	<!-- Loading text -->
+	<div class="loading__wrapper">
+		<div class="loader--text">Let's Achieve Beyond Imagination !!</div>
+		<div class="loader">
+			<span></span>
+		</div>
+	</div>
+	<!-- Loading text -->
+
+	<!-- slider arrow icons -->
+	<svg class="icons" style="display: none;">
+		<symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+			<polyline points='328 112 184 256 328 400'
+				style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+		</symbol>
+		<symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+			<polyline points='184 112 328 256 184 400'
+				style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+		</symbol>
+	</svg>
+	<!-- slider arrow icons -->
+
+	<!-- social icons -->
+	<div class="support">
+		<a href="https://github.com/maharshi-abi" target="_blank"><i class="fab fa-github"></i></a>
+		<a href="https://in.linkedin.com/in/maharshi-patwala" target="_blank"><i class="fab fa-linkedin"></i></a>
+	</div>
+	<!-- social icons -->
+
+	<!-- image slider js -->
+	<script src='js/imagesloaded.pkgd.min.js'></script>
+	<script src='js/gsap.min.js'></script>
+	<script src="js/script.js"></script>
+	<!-- image slider js -->
+</body>
+
+</html>
